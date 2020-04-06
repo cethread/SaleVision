@@ -1,0 +1,28 @@
+// Features
+#features {
+    .container-fluid {
+        padding-top: 9.5em;
+    }
+    // .h1-bg-img {
+    //     background-image: url('/images/contact-img.jpg');
+    //     width: 100vw;
+    //     height: 300px;
+    //     background-size: cover;
+    //     position: absolute;
+    //     z-index: -1;
+    // }
+
+}
+// Cards
+.card-wrap {
+    padding: 5em 0;
+
+    .card {
+        padding: 1em 1em 2em 1em;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

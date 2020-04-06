@@ -1,0 +1,94 @@
+// global
+
+body {
+    background-color: $bg-color;
+    position: relative;
+}
+.container-fluid {
+    max-width: 68%;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 25px;
+}
+
+// .ribbon {
+//     background-color: $primary;
+//     position: absolute;
+//     width: 200px;
+//     height: 100%;
+//     top: 0;
+//     bottom: 0;
+//     left: 50px;
+//     z-index: 1;
+//     opacity: 0.3;
+//     background-blend-mode: overlay;
+
+//     .ribbon-container {
+//         width: 200px;
+//         height: 100%;
+//         top: 0;
+//         bottom: 0;
+//         position: absolute;
+//         z-index: 1;
+
+//         .ribbon-h3 {
+//             position: relative;
+//             top: 5em;
+//             right: 0;
+//             margin-top: 0;
+//             padding-top: 0;
+            
+//         }
+//     }
+// }
+
+
+
+// Nav
+.navbar {
+    // background: $primary !important;
+    a {
+        font-size: 11px;
+        color: $font-bg-dark;
+
+        &:hover {
+            color: darken($font-bg-dark, $amount: 20%);
+            border-bottom: solid gray 2px;
+            transition: ease-in-out 400ms;
+        }
+    }
+}
+
+// Chatbox
+.chatbox {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    right: 1em;
+    bottom: -15.6em;
+
+    .card-header {
+        color: $font-bg-dark;
+        background: $primary;
+    }
+    .form-group {
+        position: absolute;
+
+        bottom: 0;
+    }
+
+}
+
+
+
+
+
+// footer
+
+#footer-info {
+    margin: 6em 0 0em 0;
+}

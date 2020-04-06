@@ -1,0 +1,88 @@
+ 
+
+
+// Global 
+#heading-main {
+    .intro {
+        margin-top: -30em;
+    }
+
+    .jumbotron {
+        background-image: url('../images/building.jpg');
+        background-color: $bg-color;
+        width: 100%;
+        height: 70vh;
+        padding: 0;
+        background-position-y: -8em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        z-index: -100;
+        position: absolute;
+    }
+    .banner-img-overlay {
+        background-color: black;
+        width: 100%;
+        height: 70vh;
+        z-index: -100;
+        opacity: 0.35;
+        
+    }
+    .container-fluid {
+        padding: 0;
+        margin: 0;;
+    }
+   
+}
+body {
+    background-color: $bg-color;
+}
+
+
+#analytics {
+        margin-top: 60em;
+    h1 {
+        color: $font-bg-light;
+    }
+}
+
+
+
+
+
+// Main
+
+
+
+
+
+
+// Features Page
+// cards
+.features {
+    a {
+        color: $font-bg-dark;
+    }
+    p, h1 {
+        color: $font-bg-light;
+    }
+    span {
+        color: $cta-secondary;
+    }
+    
+    
+}
+
+.manager, .enterprise {
+    background-color: $bg-color;
+    border-color: darken($font-bg-dark , $amount: 11.5%);
+}
+
+.team {
+    border: none;
+    background-color: $white;
+}
+
+
+
+

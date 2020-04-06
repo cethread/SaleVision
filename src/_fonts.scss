@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,700|Montserrat:300,400,500,700|Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
+
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Baloo 2', cursive;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Nunito Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+
+
+$font-heading-header: 'Poppins', sans-serif;
+$font-heading-secondary: 'Open Sans', sans-serif; 
+$font-p: 'Montserrat', sans-serif;
+$font-links: 'Nunito Sans', sans-serif;
+// $font-heading-p: 'Baloo 2', cursive;
+// $font-heading-link
+
+
+// Nav
+nav {
+    a {
+        font-family: $font-links;
+    }
+}
+// headings 
+    h1 {
+    font-family: $font-heading-header
+}

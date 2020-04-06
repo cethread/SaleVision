@@ -1,0 +1,42 @@
+// btn
+
+// a {
+//     color: $font-bg-dark;
+
+//     &:hover {
+//         background-color: darken($font-bg-dark, $amount: 20%);
+//     }
+// }
+.btn {
+    color: #ffffff;
+    height: 2.4em;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    border: none;
+
+    &-secondary {
+        @extend .btn;
+        background-color: $primary;
+    }
+    &-primary {
+        @extend .btn;
+        background-color: $primary;
+    }
+    a {
+        color: $font-bg-dark;
+        &:hover {
+            text-decoration: none;
+            }
+    }
+    &-primary-outline {
+        @extend .btn-primary;
+        border: 1px solid white;
+    }
+    &-dark-outline {
+        border: 1px solid lighten($color: $font-bg-light, $amount: 35%);
+    }
+}
+
+
+
+
