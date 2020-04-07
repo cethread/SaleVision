@@ -13,13 +13,12 @@
 
 <!-- Header -->
 <header>
-  
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
     <div class="container-fluid">
       <!-- Logos -->
-      <div class="navbar-brand p-0 m-0" href="index.html">
+      <adiv class="navbar-brand p-0 m-0 text-decoration-none" href="index.html">
         <img src="/images/salevision-icon.png" alt="" width="31px">
-        Sale Vision</div>
+          Sale Vision</div>
       <button class="navbar-toggle btn btn-primary d-lg-none d-sm-inline-block" type="button" data-toggle="collapse" data-target=".navbar-nav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,16 +37,21 @@
             </div>
           </div>
       </form>
-      
   </div><!-- End Container-->
   </nav><!-- End navbar -->
-</header>
 
-<!-- JUMBOTRON -->
+  <!-- Covid-19 Alert -->
+  <div class="alert m-0 alert-danger alert-dismissible">
+    <h3 class="alert-heading">COVID-19 Update</h3>
+    <p>We value our customers and employess health. Due to Covid-19, we will be closing our headquaters from March-31st-May 1st.</p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close Covid-19 Alert">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div><!--Alert Ends-->
+</header><!--Header End-->
+
 <body>
-
- 
-
+  <!-- JUMBOTRON -->
   <section class="mt-5 jumbotron home-banner">
     <div class="home-img-overlay"></div>
     <div class="container-fluid">
@@ -99,7 +103,6 @@
   </section>
   
 <!-- CHatbox -->
-<!-- <button type="submit" class="chatbutton btn btn-primary" onclick="openChatBox()">Open Chat</button> -->
 <div class="card chatbox shadow" >
   <h5 class="card-header">Live Chat
     <button type="button" class="btn btn-primary"  onclick="openChatBox()" style="width: 20px; height: 10px; font-size: 10px; background-color: white; margin-left: 14em;"></button>

@@ -14,3 +14,7 @@ function openChatBox () {
         boxStatus = false;
     }
 }
+// Popover (learn more button (features))
+$(function () {
+    $('[data-toggle="popover"]').popover();
+})

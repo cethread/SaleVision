@@ -13,72 +13,83 @@
 
 <!-- Header -->
 <header>
-  
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
     <div class="container-fluid">
       <!-- Logos -->
       <div class="navbar-brand p-0 m-0" href="index.html">
         <img src="/images/salevision-icon.png" alt="" width="31px">
-        Sale Vision</div>
-      <button class="navbar-toggle btn btn-primary d-lg-none d-sm-inline-block" type="button" data-toggle="collapse" data-target=".navbar-nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-nav navbar-collapse justify-content-end mr-5">
-        <a href="index.html" class="nav-item nav-link text-uppercase active">Home</a>        
-        <a href="features.html" class=" nav-item nav-link text-uppercase">Features</a>
-        <a href="pricing.html" class="nav-item nav-link text-uppercase">Pricing</a>
-      </div>
-      <form action="" class=" d-none d-lg-block form-inline">
+          Sale Vision</div>
+        <button class="navbar-toggle btn btn-primary d-lg-none d-sm-inline-block" type="button" data-toggle="collapse" data-target=".navbar-nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav navbar-collapse justify-content-end mr-5">
+          <a href="index.html" class="nav-item nav-link text-uppercase">Home</a>        
+          <a href="features.html" class=" nav-item nav-link text-uppercase active">Features</a>
+          <a href="pricing.html" class="nav-item nav-link text-uppercase">Pricing</a>
+        </div>
+        <form action="" class=" d-none d-lg-block form-inline">
           <div class="input-group">
-                <input class="form-control"  style="height: 27px;" type="search" placeholder="Search...">
+            <input class="form-control"  style="height: 27px;" type="search" placeholder="Search...">
             <div class="input-group-append">
               <button type="submit" class="btn btn-primary" style="height: 27px;">
-                <span class="search-icon"><img src="./images/search.png"  style="width: 10px; margin-top: -11px;" alt=""></span>
+                <span aria-hidden="true" class="search-icon"><img src="./images/search.png"  style="width: 10px; margin-top: -11px;" alt=""></span>
               </button>
             </div>
           </div>
-      </form>
-      
-  </div><!-- End Container-->
+        </form>
+    </div><!-- End Container-->
   </nav><!-- End navbar -->
-</header>
+
+<!-- Covid-19 Alert -->
+<div class="alert m-0 alert-danger alert-dismissible">
+  <h3 class="alert-heading">COVID-19 Update</h3>
+  <p>We value our customers and employess health. Due to Covid-19, we will be closing our headquaters from March-31st-May 1st.</p>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close Covid-19 Alert">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div><!--Alert Ends-->
+</header><!--Header End-->
 
 <!-- Body -->
-
 <body>
-    <section id="features">
-        <!-- <div class="h1-bg-img"></div>  -->
-        <div class="container-fluid">
-            <h1 class="text-center">Helping Successful Companies Build Stronger Customer Relationships.</h1>
-            <div class="row mb-5 card-wrap row-gutters-md-3"><!-- Card Wrap -->
-                <div class="col align-self-center col-md-12 mb-md-4 col-lg-4">
-                    <div class="card shadow text-center">
-                        <img src="images/Sales-Forecasting.jpg" alt="" class="card-img img-fluid">
-                        <h3 class="card-title"> <strong> Sales Forecasting</strong></h3>
-                        <p class="card-text">Sales vision management and customizable views help keep your sales force focused.</p>
-                        <a href="#" class="card-link">Learn More</a>
-                    </div>
-                </div><!--Col-->
-                <div class="col col-md-12 mb-md-4 col-lg-4">
-                    <div class="card shadow text-center">
-                        <img src="images/Automated-calls.jpg" alt="" class="card-img img-fluid">
-                        <h3 class="card-title"> <strong> Automated Marketing</strong></h3>
-                        <p class="card-text">Lead and Campaign Management to segment and track your marketing efforts.</p>
-                        <a href="#" class="card-link">Learn More</a>
-                    </div>
-                </div><!--Col-->
-                <div class="col align-self-center col-md-12 mb-md-4 col-lg-4">
-                    <div class="card shadow text-center">
-                        <img src="images/order tracking.jpg" alt="" class="card-img img-fluid">
-                        <h3 class="card-title"> <strong>Tracking</strong> </h3>
-                        <p class="card-text">Effectively track, manage and resolve customer support issues quickly and easily.</p>
-                        <a href="#" class="card-link">Learn More</a>
-                    </div>
-                </div><!--Col-->
-            </div><!-- Card Row-->
-            <h1 class="text-center">Close more Sales. Supercharge your Marketing. Control your Costs.</h1>
-        </div><!--container-->
-    </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="container-fluid">
+      <h1 class="text-center">Helping Successful Companies Build Stronger Customer Relationships.</h1>
+      <div class="row mb-5 card-wrap row-gutters-md-3"><!-- Card Wrap -->
+        <div class="col align-self-center col-md-12 mb-md-4 col-lg-4">
+          <div class="card shadow text-center">
+              <img src="images/Sales-Forecasting.jpg" alt="" class="card-img img-fluid">
+              <h3 class="card-title"> <strong> Sales Forecasting</strong></h3>
+              <p class="card-text">Sales vision management and customizable views help keep your sales force focused.</p>
+              <a href="#" class="card-link" 
+              data-toggle="popover" 
+              title="Sales Forecasting"
+              data-content="Learn more about this Amazing Feature"
+              data-trigger="hover"
+              data-placement="bottom">Learn More</a>
+          </div>
+        </div><!--Col-->
+        <div class="col col-md-12 mb-md-4 col-lg-4">
+          <div class="card shadow text-center">
+              <img src="images/Automated-calls.jpg" alt="" class="card-img img-fluid">
+              <h3 class="card-title"> <strong> Automated Marketing</strong></h3>
+              <p class="card-text">Lead and Campaign Management to segment and track your marketing efforts.</p>
+              <a href="#" class="card-link">Learn More</a>
+          </div>
+        </div><!--Col-->
+        <div class="col align-self-center col-md-12 mb-md-4 col-lg-4">
+          <div class="card shadow text-center">
+              <img src="images/order tracking.jpg" alt="" class="card-img img-fluid">
+              <h3 class="card-title"> <strong>Tracking</strong> </h3>
+              <p class="card-text">Effectively track, manage and resolve customer support issues quickly and easily.</p>
+              <a href="#" class="card-link">Learn More</a>
+          </div>
+        </div><!--Col-->
+      </div><!-- Card Row-->
+    <h1 class="text-center">Close more Sales. Supercharge your Marketing. Control your Costs.</h1>
+    </div><!--container-->
+  </section><!--Features End-->
 
  <!-- newsletter -->
  <section id="newsletter">
@@ -86,24 +97,23 @@
       <h2 class="text-center">Join Our Weekly Newsletter</h2>
       <p class="text-center">Sign up for the latest discounts!</p>
       <form action="">
-          <fieldset class="form-group form-inline justify-content-around">
-            <label for="Sign Up" class="sr-only">Sign-Up</label>
-            <!-- <div class="input-group-prepend">
-              <div class="input-group-text">
-                <input type="checkbox"  aria-label="Confirm Donation">
-              </div>
-              <div class="input-group-text">$</div>
-            </div> -->
-              <input type="name" class="form-control" placeholder="First Name*">
-              <input type="email" class="form-control" placeholder="E-mail Address*">
-              <button type="submit" class="btn btn-primary">Sign Up</button>
-          </fieldset>
+        <fieldset class="form-group form-inline justify-content-around">
+          <label for="Sign Up" class="sr-only">Sign-Up</label>
+          <!-- <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox"  aria-label="Confirm Donation">
+            </div>
+            <div class="input-group-text">$</div>
+          </div> -->
+            <input type="name" class="form-control" placeholder="First Name*">
+            <input type="email" class="form-control" placeholder="E-mail Address*">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </fieldset>
       </form>
-  </div>
-</section>
+    </div>
+  </section>
 
 <!-- CHatbox -->
-<!-- <button type="submit" class="chatbutton btn btn-primary" onclick="openChatBox()">Open Chat</button> -->
 <div class="card chatbox shadow" >
   <h5 class="card-header">Live Chat
     <button type="button" class="btn btn-primary"  onclick="openChatBox()" style="width: 20px; height: 10px; font-size: 10px; background-color: white; margin-left: 14em;"></button>
@@ -123,35 +133,35 @@
         <button type="submit" class="btn btn-primary" aria-placeholder="Submit your response...">Submit</button>
       </div>
     </div>
-    
   </form>
 </div><!--Chatbox End-->
 
 <!-- footer -->
 <footer>
   <div class="container-fluid">
-  <section id="footer-info">
-  <div class="row">
-      <div class="col">
+    <section id="footer-info">
+      <div class="row">
+        <div class="col">
           <h4>Contact</h4>
           <p>info@salevision.com</p>
-      </div>
-      <div class="col">
+        </div>
+        <div class="col">
           <h4>Headquaters</h4>
           <p>559 Wirch Ave. Suite B <br> Linden, NJ 07227 </p>
-              
-      </div>
-      <div class="col">
+                
+        </div>
+        <div class="col">
           <form action="" class="form-inline">
-              <fieldset>
-                  <legend class="form-control-label">Search</legend>
-                  <input type="text" placeholder="search..." class="form-control">
-              </fieldset>
+            <fieldset>
+              <legend class="form-control-label">Search</legend>
+              <input type="text" placeholder="search..." class="form-control">
+            </fieldset>
           </form>
+        </div>
       </div>
+    </section>
   </div>
-  </section>
-  </footer>
+</footer>
 
 
 
