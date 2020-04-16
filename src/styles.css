@@ -10971,7 +10971,7 @@ h1 {
 }
 
 .home-banner {
-  background-image: url("/images/building.jpg");
+  background-image: url("../images/building.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 530px;
