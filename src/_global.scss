@@ -1,5 +1,4 @@
 // global
-
 body {
     background-color: $bg-color;
     position: relative;
@@ -12,6 +11,54 @@ h1 {
 }
 h2 {
     font-size: 25px;
+}
+h4 {
+    font-size: 16px;
+}
+// Nav
+.navbar {
+    // background: $primary !important;
+    a {
+        font-size: 11px;
+        color: $font-bg-dark;
+
+        &:hover {
+            color: darken($font-bg-dark, $amount: 20%);
+            border-bottom: solid gray 2px;
+            transition: ease-in-out 400ms;
+        }
+    }
+}
+// Chatbox
+.chatbox {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    right: 1em;
+    bottom: -15.6em;
+
+    .card-header {
+        color: $font-bg-dark;
+        background: $primary;
+    }
+    .form-group {
+        position: absolute;
+
+        bottom: 0;
+    }
+
+}
+// footer
+footer {
+    h4 + p {
+        font-size: 12px;
+    }
+    
+}
+#footer-info {
+    margin: 6em 0 4em 0;
+    padding-top: 1em;
 }
 
 // .ribbon {
@@ -44,51 +91,3 @@ h2 {
 //         }
 //     }
 // }
-
-
-
-// Nav
-.navbar {
-    // background: $primary !important;
-    a {
-        font-size: 11px;
-        color: $font-bg-dark;
-
-        &:hover {
-            color: darken($font-bg-dark, $amount: 20%);
-            border-bottom: solid gray 2px;
-            transition: ease-in-out 400ms;
-        }
-    }
-}
-
-// Chatbox
-.chatbox {
-    width: 300px;
-    height: 300px;
-    position: fixed;
-    z-index: 1;
-    right: 1em;
-    bottom: -15.6em;
-
-    .card-header {
-        color: $font-bg-dark;
-        background: $primary;
-    }
-    .form-group {
-        position: absolute;
-
-        bottom: 0;
-    }
-
-}
-
-
-
-
-
-// footer
-
-#footer-info {
-    margin: 6em 0 0em 0;
-}
