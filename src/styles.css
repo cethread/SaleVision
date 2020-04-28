@@ -10878,6 +10878,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@media screen and (max-width: 375px) {
+  #portfolio img {
+    width: 100%;
+  }
+}
+
 body {
   background-color: #ececec;
   position: relative;

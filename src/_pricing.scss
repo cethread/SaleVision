@@ -33,9 +33,10 @@
         color: $primary;
     }
 }
-
-
 // cards
+// .card-body {
+//     padding: 0.25rem !important;
+// }
 .manager, .enterprise {
     background-color: $bg-color;
     border-color: darken($font-bg-dark , $amount: 11.5%);
